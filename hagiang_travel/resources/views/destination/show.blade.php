@@ -13,9 +13,9 @@
     <div class="row g-4">
         <div class="col-md-7">
             @if($destination->image_url)
-                <img src="{{ $destination->image_url }}" class="img-fluid rounded shadow" alt="{{ $destination->name }}" style="width:100%;max-height:400px;object-fit:cover;">
+                <img src="https://art-studio.vn/wp-content/uploads/2025/10/xu-huong-phuot-va-cam-trai-o-ha-giang.jpg" class="img-fluid rounded shadow" alt="{{ $destination->name }}" style="width:100%;max-height:400px;object-fit:cover;">
             @else
-                <img src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800" class="img-fluid rounded shadow" alt="{{ $destination->name }}" style="width:100%;max-height:400px;object-fit:cover;">
+                <img src="https://bizweb.dktcdn.net/100/483/007/files/ha-giang-1.jpg?v=1692666011752" class="img-fluid rounded shadow" alt="{{ $destination->name }}" style="width:100%;max-height:400px;object-fit:cover;">
             @endif
         </div>
         <div class="col-md-5">
@@ -52,7 +52,7 @@
             <div class="col-md-4">
                 <div class="card shadow-sm h-100">
                     @if($hh->image_url)
-                        <img src="{{ $hh->image_url }}" class="card-img-top" style="height:160px;object-fit:cover;" alt="{{ $hh->owner_name }}">
+                        <img src="https://bizweb.dktcdn.net/100/483/007/files/ha-giang-1.jpg?v=1692666011752" class="card-img-top" style="height:160px;object-fit:cover;" alt="{{ $hh->owner_name }}">
                     @endif
                     <div class="card-body">
                         <h6 class="fw-bold">{{ $hh->owner_name }}</h6>
@@ -76,7 +76,7 @@
             <div class="col-md-4">
                 <div class="card shadow-sm h-100">
                     @if($service->image_url)
-                        <img src="{{ $service->image_url }}" class="card-img-top" style="height:160px;object-fit:cover;" alt="{{ $service->name }}">
+                        <img src="https://static-images.vnncdn.net/files/publish/2023/9/19/thuy-si-o-ha-giang-812.jpg" class="card-img-top" style="height:160px;object-fit:cover;" alt="{{ $service->name }}">
                     @endif
                     <div class="card-body">
                         <span class="badge bg-warning text-dark mb-1">{{ $service->type_name }}</span>
